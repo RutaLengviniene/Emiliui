@@ -23,6 +23,7 @@ span {
 }
 .main_window {
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: rgb(238, 236, 236);
     width: 100%;
@@ -43,6 +44,7 @@ span {
     background-color: #fff;
     width: 600px;
     margin: 50px;
+    padding: 20px;
     border-radius: 5px;
 }
 .inserted_tasks {
