@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best ToDo</title>
+    <link rel="stylesheet" href="taskstyles.css">
+    <script src="https://kit.fontawesome.com/23072641b5.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="logo">
+        <h1>Best <span>ToDo</span> App</h1>
+    </div>
+    <div class="navigation">
+        <nav class="social_media_links">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a> 
+        </nav>
+    </div>
+</header>
+<body>
+    <div class="editing_window">
+        <form class="task_enetering_container">
+            <h1>Edit task</h1>
+            <div>
+                <label for="rask_id">Task ID</label>
+                <input type="text" id="task_id" value="123456789">
+                <br><br>
+                <label for="task_list">Name</label>
+                <input type="text" id="task_list" value="Take out trashes" >
+                <br><br>
+                <label for="complete">Complete</label>
+                <input type="checkbox" id="complete">
+                <br><br>
+                <button type="submit" class="submit_button">Edit</button>
+                <small class="alert">There Was An Error</small>
+            </div>
+        </form>
+        <input type="button" class="back_to_task" value="Back to Tasks" onclick="history.go(-1)">
+    </div>
+</body>
+</html>
